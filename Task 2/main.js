@@ -20,6 +20,7 @@ form.addEventListener("submit", (e) => {
 
   if(colorMatchCheck != true){
     alert('Please choose only colors from the list: Red, Blue, Green, Black, White.')
+    break;
   }
   // colorInput.value = ''
 })
